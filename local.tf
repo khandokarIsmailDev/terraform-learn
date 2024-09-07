@@ -29,3 +29,8 @@ resource "local_file" "aktaname" {
     filename = var.filename 
     content = var.content
 }
+
+resource "local_file" "ismail" {
+    filename = var.filename
+    content = var.devops_cont_try
+}

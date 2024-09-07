@@ -5,3 +5,5 @@ variable "filename" {
 variable "content" {
     default = "hello there i created from a variable"
 }
+
+variable "devops_cont_try" {}
